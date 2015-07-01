@@ -2,10 +2,9 @@ require 'minitest/autorun'
 require './siskel.rb'
 
 class TestSiskel < Minitest::Test
-
   def test_movie_title
-    movie = Siskel.new("Kill Bill")
-    assert_equal "Kill Bill: Vol. 1", movie.title
+    movie = Siskel.new('Kill Bill')
+    assert_equal 'Kill Bill: Vol. 1', movie.title
   end
 
   # def test_movie_rating
@@ -42,7 +41,7 @@ class TestSiskel < Minitest::Test
   # Films with a tomato meter between 51 and 75 get a thumbs up.
   # Films with a tomato meter between 26 and 50 get a thumbs down.
   # Films with a tomato meter between 0 and 25 get two thumbs down.
-  
+
   # def test_movie_consensus_positive
   #   movie = Siskel.new("The Fifth Element")
   #   assert_equal "Thumbs Up", movie.consensus
@@ -52,5 +51,4 @@ class TestSiskel < Minitest::Test
   #   movie = Siskel.new("Daredevil")
   #   assert_equal "Thumbs Down", movie.consensus
   # end
-
 end
