@@ -101,9 +101,9 @@ So if we wanted to be more specific, we could search for *Fargo* by both title _
 http://omdbapi.com/?t=Fargo&y=1996
 ```
 
-The OMDb API provides us with a few different parameters we can use to add granularity to our query. You can find these all readily available in the OMDb documentation. Play around with these until you feel comfortable.
+The OMDb API provides us with a few different parameters we can use to make our query more specific. You can find these all readily available in the OMDb documentation. Play around with them until you feel comfortable.
 
-Not all APIs are as simple as OMDb. Make sure your first step when using a new API is reading through its documentation. This will likely save you tons of time down the road. If your lucky, an API will be well documented, but that's not always the case.
+Not all APIs are as simple as OMDb. Make sure your first step when using a new API is reading through its documentation. This will likely save you tons of time down the road. If you're lucky, an API will be well documented, but that's not always the case.
 
 Now get to work!
 
