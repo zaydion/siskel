@@ -1,7 +1,7 @@
 require 'httparty'
 
 class Siskel
-  attr_reader :title, :consensus
+  attr_reader :title
 
   def initialize(title, options = {})
     if !options.nil?
