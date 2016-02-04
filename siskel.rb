@@ -29,7 +29,7 @@ class Siskel
   end
 
   def title
-    @title = @movie['Title'] || @movie[:error] = "Movie not found!"
+    @title = @movie['Title'] || @title = @movie['Error']
   end
 
   def consensus
